@@ -1,0 +1,53 @@
+form{
+  display: flex;
+  justify-content: center;
+}
+
+.mainForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height:110vh ;
+  width: 39vw;
+  /* gap:15px; */
+  
+}
+.cautionH{
+  margin-top: 50px;
+  color: black;
+  font-size: 20px;
+  /* z-index: 100; */
+}
+.cautionP{
+  color: black;
+  margin-bottom: 40px;
+}
+.mainForm label{
+  text-align: left;
+  align-self: start;
+  margin-bottom: 5px;
+}
+.mainForm input, select{
+  width: 99%;
+  margin-bottom: 15px;
+  height: 5vh;
+  border:1px solid #eeeeee;
+  font-size: 18px;
+
+}
+.mainForm button{
+  width: 99%;
+  height: 40px;
+  background-color: #700608;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border-style: none;
+  transition-duration: 200ms;
+  /* margin-bottom: 90px; */
+}
+.mainForm button:hover{
+  background-color: #1f1f1f;
+  transition-duration: 200ms;
+}

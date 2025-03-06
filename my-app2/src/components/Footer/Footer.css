@@ -1,0 +1,38 @@
+.footContainer{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 70px;
+  background-color: #1f1f1f;
+  color: white;
+  
+  
+}
+.footContainer ul{
+  padding: 0;
+  text-decoration: none;
+  gap:4px;
+}
+.footContainer a{
+  text-decoration: underline;
+  color: white;
+}
+.footContainer .left a{
+  display: flex;
+  color: white;
+  padding: 5px 5px 5px ;
+border-radius:3px ;
+
+}
+.facebook{
+  background-color: #415894;
+}
+.youtube{
+  background-color: #bc342a;
+
+}
+.twitter{
+  background-color: #6baae8;
+}
+.instagram{
+  background-color: #d24e61;
+}
