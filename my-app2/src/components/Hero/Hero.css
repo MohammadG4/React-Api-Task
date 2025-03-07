@@ -1,6 +1,7 @@
 .mainHero {
   position: relative;
   height: 70vh;
+  width: 100%;
   background-image: url("\\src\\assets\\Dev-Hub-af7280d9.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,6 +46,8 @@
   border:4.5px solid white ;
   width: 45%;
   height: 16%;
+  min-width: fit-content;
+  min-height: fit-content;
 }
 
 .mainHero p {
@@ -54,4 +57,15 @@
   margin-top: 35px;
   word-spacing: 3px;
   letter-spacing: 2px;
+}
+@media (max-width: 415px) {
+  .content{
+    width: 100%;
+    
+  }
+  .mainHero h1{
+    font-size: 40px;
+    height: 13%;
+    width: 90%;
+  }
 }
